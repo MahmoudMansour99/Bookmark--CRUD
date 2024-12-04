@@ -155,10 +155,10 @@ function showDuplicateError(message) {
   var boxContent = document.querySelector(".box-content");
   boxContent.appendChild(errorMessage);
   boxModal.classList.remove("d-none");
-
-  // Close modal when clicking the close button
-  closeBtn.addEventListener("click", closeModal);
 }
+
+ // Close modal when clicking the close button
+closeBtn.addEventListener("click", closeModal);
 
 // Close modal function
 function closeModal() {
